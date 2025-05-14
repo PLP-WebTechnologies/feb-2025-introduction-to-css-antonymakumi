@@ -1,0 +1,51 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling using ID */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling using class */
+.text-content {
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+    background-color: #e8f5e9;
+}
+
+/* Image styling using element selector */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Button styling using class */
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
